@@ -1,0 +1,31 @@
+.btn-circle {
+  display: block;
+  width: 150px;
+  padding: 16px 32px;
+  border-radius: 100px;
+  font-size: 16px;
+}
+
+.btn-addprd {
+  width: 62px;
+  height: 20px;
+  border-radius: 100px;
+  background: rgba(52, 92, 178, 0.15);
+  display: block;
+  color: var(--color1);
+  text-align: center;
+  padding: 7px;
+  margin: 18px 22px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-addprd:hover {
+  color: #fff;
+  background-color: var(--color2);
+}
+
+.fadeout {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}

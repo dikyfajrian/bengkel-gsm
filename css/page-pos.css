@@ -1,0 +1,121 @@
+.page-content {
+  background-color: #f3f6f9 !important;
+}
+.grid1,
+.grid2 {
+  height: 100vh;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.grid1 {
+  flex: 72%;
+  background-color: transparent; /* You can replace this with your desired color */
+}
+
+.grid2 {
+  flex: 28%;
+  background-color: #fff; /* You can replace this with your desired color */
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+}
+
+.bg-info {
+  width: 100%;
+  height: 105px;
+  border-bottom: 1px solid #e9e9e9;
+  border-top: 1px solid #e9e9e9;
+  background: #fff;
+}
+
+.bg-product {
+  height: auto;
+  border-radius: 10px;
+  background: #fff;
+  padding-bottom: 34px;
+}
+
+.bg-product .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider {
+  height: 1px;
+  background-color: #f1f1f1;
+  margin-top: 2px;
+}
+
+.divider p {
+  font-size: 12px;
+  margin: -10px 14px;
+}
+
+.step-btn-minus {
+  background-color: transparent !important;
+  border: none !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 100px !important;
+  margin-right: 10px;
+}
+
+.step-btn-plus {
+  background-color: transparent !important;
+  border: none !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 100px !important;
+  margin-left: 10px;
+}
+
+.stepper-value {
+  color: var(--color1);
+  border: none;
+}
+
+.stepper-button-minus:after,
+.stepper-button-minus:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent !important;
+  border-radius: 2px;
+}
+
+.stepper-button-plus:after,
+.stepper-button-plus:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent !important;
+  border-radius: 2px;
+}
+
+.bg-search {
+  background-color: #fff;
+  border-radius: 100px;
+  width: 194px;
+  transition: width 0.3s ease;
+}
+
+.bg-search .item-media {
+  margin-top: 2px;
+}
+
+.bg-search .item-input-wrap {
+  margin-top: -9px;
+  margin-left: -4px;
+}
+
+.input-form {
+  width: 210px !important;
+  height: 44px !important;
+  border-radius: 10px !important;
+  border: 1px solid #e9e9e9 !important;
+  padding: 0px 15px !important;
+  font-size: 15px !important;
+}

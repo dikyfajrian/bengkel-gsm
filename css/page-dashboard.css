@@ -1,0 +1,97 @@
+.page-content {
+  background-color: #fff !important;
+}
+
+.bg-overview {
+  width: 338px;
+  height: 161px;
+  border-radius: 15px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  text-align: left;
+}
+
+.banner-green {
+  width: 100px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: rgba(25, 135, 84, 0.15);
+}
+
+.banner-blue {
+  width: 100px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #e1e7f4;
+}
+.banner-yellow {
+  width: 100px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #fff1db;
+}
+
+.bg-stats {
+  width: 611px;
+  height: 383px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  text-align: left;
+}
+
+.table-container {
+  max-height: 290px; /* Adjust the max height as needed */
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+th {
+  background-color: #f3f6f9;
+  color: var(--color1); /* You can replace this with your color variable */
+}
+
+th:first-child {
+  border-radius: 8px 0px 0px 8px;
+}
+
+th:last-child {
+  border-radius: 0px 8px 8px 0px;
+}
+
+tr:hover {
+  background-color: #f3f6f9;
+  border-radius: 10px;
+}
+
+td,
+th:not(:first-child) {
+  border-top: 10px solid transparent;
+}
+
+.product-description {
+  font-size: 12px;
+  color: #979797;
+}
+
+.custom-cal {
+  width: 12%;
+  border-radius: 100px;
+  background-color: #f2f2f2;
+  transition: width 0.3s ease;
+}
